@@ -13,6 +13,8 @@ namespace Application.Features.SoftwareLanguages.Command.DeleteSoftwareLanguage
 {
     public class DeleteSoftwareLanguageCommand:IRequest<DeletedSoftwareLanguageDto>
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
         public class DeleteSoftwareLanguageCommandHandler:IRequestHandler<DeleteSoftwareLanguageCommand, DeletedSoftwareLanguageDto>
         {
             private readonly ISoftwareLanguageRepository _softwareLanguageRepository;
