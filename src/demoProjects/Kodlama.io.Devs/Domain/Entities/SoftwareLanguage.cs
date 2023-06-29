@@ -10,6 +10,7 @@ namespace Domain.Entities
     public class SoftwareLanguage:Entity
     {
         public string Name { get; set; }
+        public IList<Technology> Technologies { get; set; }
         public SoftwareLanguage()
         {
 

@@ -22,6 +22,8 @@
 
   <ItemGroup>
     <Folder Include="Features\SoftwareLanguages\Constants\" />
+    <Folder Include="Features\Technologies\Constants\" />
+    <Folder Include="Features\Technologies\Rules\" />
   </ItemGroup>
 
 </Project>
