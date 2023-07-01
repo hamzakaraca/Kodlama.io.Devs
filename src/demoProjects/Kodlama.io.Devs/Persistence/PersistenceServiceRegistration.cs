@@ -22,6 +22,10 @@ namespace Persistence
                                                          configuration.GetConnectionString("ConnectionString")));
             services.AddScoped<ISoftwareLanguageRepository, SoftwareLanguageRepository>();
             services.AddScoped<ITechnologyRepository, TechnologyRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserOperationClaimRepository, UserOperationClaimRepository>();
+            services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
+            services.AddScoped<IOperationClaimRepository, OperationClaimRepository>();
 
             return services;
         }
