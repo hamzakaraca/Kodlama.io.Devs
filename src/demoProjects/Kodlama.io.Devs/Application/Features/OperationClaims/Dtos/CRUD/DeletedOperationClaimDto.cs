@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Features.SoftwareLanguages.Dtos.SoftwareLanguage
+namespace Application.Features.OperationClaims.Dtos.CRUD
 {
-    public class UpdatedSoftwareLanguageDto
+    public class DeletedOperationClaimDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

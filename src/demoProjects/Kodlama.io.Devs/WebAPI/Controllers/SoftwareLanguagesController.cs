@@ -1,7 +1,8 @@
 ﻿using Application.Features.SoftwareLanguages.Command.CreateSoftwareLanguage;
 using Application.Features.SoftwareLanguages.Command.DeleteSoftwareLanguage;
 using Application.Features.SoftwareLanguages.Command.UpdateSoftwareLanguage;
-using Application.Features.SoftwareLanguages.Dtos.SoftwareLanguage;
+using Application.Features.SoftwareLanguages.Dtos.CRUD;
+using Application.Features.SoftwareLanguages.Dtos.Get;
 using Application.Features.SoftwareLanguages.Models;
 using Application.Features.SoftwareLanguages.Queries.GetByIdSoftwareLanguage;
 using Application.Features.SoftwareLanguages.Queries.GetListSoftwareLanguage;

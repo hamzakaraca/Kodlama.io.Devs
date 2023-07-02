@@ -1,4 +1,4 @@
-﻿using Application.Features.SoftwareLanguages.Dtos.SoftwareLanguage;
+﻿using Application.Features.SoftwareLanguages.Dtos.Get;
 using Application.Features.SoftwareLanguages.Rules;
 using Application.Services.Repositories;
 using AutoMapper;

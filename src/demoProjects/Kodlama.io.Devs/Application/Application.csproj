@@ -21,9 +21,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Features\OperationClaims\Constants\" />
+    <Folder Include="Features\OperationClaims\Rules\" />
     <Folder Include="Features\SoftwareLanguages\Constants\" />
     <Folder Include="Features\Technologies\Constants\" />
     <Folder Include="Features\Technologies\Rules\" />
+    <Folder Include="Features\UserOperationClaims\Constants\" />
+    <Folder Include="Features\UserOperationClaims\Rules\" />
   </ItemGroup>
 
 </Project>

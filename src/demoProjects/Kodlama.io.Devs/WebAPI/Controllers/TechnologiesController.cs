@@ -1,7 +1,6 @@
 ﻿using Application.Features.SoftwareLanguages.Command.CreateSoftwareLanguage;
 using Application.Features.SoftwareLanguages.Command.DeleteSoftwareLanguage;
 using Application.Features.SoftwareLanguages.Command.UpdateSoftwareLanguage;
-using Application.Features.SoftwareLanguages.Dtos.SoftwareLanguage;
 using Application.Features.Technologies.Command.CreateTechnology;
 using Application.Features.Technologies.Command.DeleteTechnology;
 using Application.Features.Technologies.Command.UpdateTechnology;

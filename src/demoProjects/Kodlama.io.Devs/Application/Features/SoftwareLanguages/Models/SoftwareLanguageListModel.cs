@@ -1,4 +1,5 @@
-﻿using Core.Persistence.Paging;
+﻿using Application.Features.SoftwareLanguages.Dtos.Get;
+using Core.Persistence.Paging;
 using Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,6 @@ namespace Application.Features.SoftwareLanguages.Models
 {
     public class SoftwareLanguageListModel:BasePageableModel
     {
-        public IList<SoftwareLanguage> Items { get; set; }
+        public IList<SoftwareLanguageListDto> Items { get; set; }
     }
 }

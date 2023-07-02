@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Features.SoftwareLanguages.Dtos.SoftwareLanguage
+namespace Application.Features.SoftwareLanguages.Dtos.CRUD
 {
-    public class SoftwareLanguageGetByIdDto
+    public class DeletedSoftwareLanguageDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

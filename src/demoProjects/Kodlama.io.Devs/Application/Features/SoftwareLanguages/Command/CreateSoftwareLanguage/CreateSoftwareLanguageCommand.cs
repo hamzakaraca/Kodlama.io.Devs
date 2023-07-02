@@ -1,4 +1,4 @@
-﻿using Application.Features.SoftwareLanguages.Dtos.SoftwareLanguage;
+﻿using Application.Features.SoftwareLanguages.Dtos.CRUD;
 using Application.Features.SoftwareLanguages.Rules;
 using Application.Services.Repositories;
 using AutoMapper;

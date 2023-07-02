@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Features.SoftwareLanguages.Dtos.SoftwareLanguage
+namespace Application.Features.OperationClaims.Dtos.Get
 {
-    public class DeletedSoftwareLanguageDto
+    public class OperationClaimListDto
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string Name { get; set; }          
     }
 }
